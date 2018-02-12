@@ -1,5 +1,6 @@
 .avatar {
-	min-height: 250px;
+	min-height: 350px;
+min-width: 350px;
 	flex-basis: 45%;
 	border-radius: 50%;
 	border-style: solid;
@@ -490,9 +491,10 @@ transition: all 0.1s ease-in;
 	flex-grow: 1;
 	height: 85px;
 	position: fixed;
-	left: 955px;
+	left: 50.7%;
 	top: 14.5px;
-	width: 600px;
+	width: 50%;
+	max-width: 600px;
 }
 
 .navigation-container {
@@ -501,10 +503,13 @@ transition: all 0.1s ease-in;
 	list-style: none;
 	color: #530031;
 	text-decoration: none;
+	flex-wrap: wrap;
 }
 
 
+
 .navigation-container__item {
+
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 5px;
@@ -647,6 +652,7 @@ outline-style: solid;
 .site_icon {
 flex-basis: 40.3%;
 min-height: 150px;
+min-width: 151px;
 margin-right: auto;
 margin-left: auto;
 border: 0px solid #7BD1C0;
@@ -795,12 +801,14 @@ line-height: 2em;
 min-height: 430px;
 background-image: url(../img/screen.png);
 background-repeat: no-repeat;
+background-size: 90%;
 }
 
 /* иконки в блоке наши преимущества */
 
 .icon_tab {
 	min-height: 150px;
+	min-width: 187px;
 	background-image: url(../img/icon_frame.svg);
 	background-repeat: no-repeat;
 	background-size: 250%;
@@ -809,6 +817,7 @@ background-repeat: no-repeat;
 
 .icon_lamp {
 	min-height: 150px;
+	min-width: 187px;
 	background-image: url(../img/icon_frame.svg);
 	background-repeat: no-repeat;
 	background-size: 250%;
@@ -817,6 +826,7 @@ background-repeat: no-repeat;
 
 .icon_watch {
 	min-height: 150px;
+	min-width: 187px;
 	background-image: url(../img/icon_frame.svg);
 	background-repeat: no-repeat;
 	background-size: 250%;
