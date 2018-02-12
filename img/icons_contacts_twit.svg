@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2017 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="8.4668mm" height="8.4666mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 30.54 30.54"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="789" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="400">
+	<font-face 
+		font-family="Gotham Pro Medium">
+		<font-face-src>
+			<font-face-name name="Gotham Pro Medium Regular"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="t" horiz-adv-x="409" d="M35.0073 423.007l0 104.987 65.9992 0 0 144.009 120.996 0 0 -144.009 141.002 0 0 -104.987 -141.002 0 0 -259.008c0,-43.9936 21.4926,-65.9992 64.6725,-65.9992 25.9857,0 50.6625,5.99671 74.3309,18.0078l0 -98.3354c-31.1687,-17.8309 -67.3436,-26.6756 -108.507,-26.6756 -101.007,0 -151.492,51.5116 -151.492,154.499l0 277.511 -65.9992 0z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Gotham Pro Medium";font-variant:normal;font-style:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+    .fil1 {fill:none}
+    .fil0 {fill:#FFDCC8}
+    .fnt0 {font-weight:normal;font-size:20.39px;font-family:'Gotham Pro Medium'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <text x="11.21" y="22.03"  class="fil0 fnt0">t</text>
+  <rect class="fil1" x="0" y="-0" width="30.54" height="30.54"/>
+ </g>
+</svg>
