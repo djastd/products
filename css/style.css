@@ -1,13 +1,13 @@
 .avatar {
-	min-height: 350px;
-min-width: 350px;
-	flex-basis: 45%;
-	border-radius: 50%;
-	border-style: solid;
-	border-width: 3px;
-	transition-property: border-color;
-	transition-duration: 0.5s;
-	transition-delay: 0.1s; 
+min-height: 250px;
+min-width: 250px;
+flex-basis: 45%;
+border-radius: 50%;
+border-style: solid;
+border-width: 3px;
+transition-property: border-color;
+transition-duration: 0.5s;
+transition-delay: 0.1s; 
 	transition-timing-function: linear;
 	background-repeat: no-repeat;
 }
@@ -32,7 +32,7 @@ color: #ffffff;
 }
 
 .banner__item-1 {
-    flex-basis: 100%;
+flex-basis: 100%;
 }
 
 .banner__item-1_beige-theme {
@@ -45,6 +45,7 @@ color: #2B496C;
 	padding: 0;
 	font-family: "gothampro";
 	font-size: 16pt;
+	flex: auto;
 }
 
 .button {
@@ -173,7 +174,8 @@ color: #ffffff;
 }
 
 .column-3 {
-flex-basis: 31%;
+flex-basis: 33%;
+max-width: 380px;
 display: flex;
 align-items: flex-start;
 flex-wrap: wrap;
@@ -203,7 +205,8 @@ background-color: #FFDCC8;
 }
 
 .container {
-flex-basis: 64%;
+flex-basis: 100%;
+max-width: 1200px;
 display: flex;
 justify-content: space-between;
 margin-left: auto;
@@ -383,6 +386,8 @@ transition: all 0.1s ease-in;
 	flex-wrap: wrap;
 	align-items: flex-start;
 	align-content: flex-start;
+	width: 100%;
+	flex-basis: 100%;
 }
 
 .header_short {
@@ -495,6 +500,7 @@ transition: all 0.1s ease-in;
 	top: 14.5px;
 	width: 50%;
 	max-width: 600px;
+
 }
 
 .navigation-container {
@@ -504,12 +510,12 @@ transition: all 0.1s ease-in;
 	color: #530031;
 	text-decoration: none;
 	flex-wrap: wrap;
+	flex-basis: 100%;
 }
 
 
 
 .navigation-container__item {
-
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 5px;
@@ -576,7 +582,8 @@ transition: all 0.1s ease-in;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 100%;
+	width: 100%;
+	flex-basis: 100%;
 }
 
 .section__item-1 {
@@ -740,6 +747,10 @@ margin-bottom: 50px;
 
 .margin-bottom25 {
 margin-bottom: 25px;
+}
+
+.margin-bottom10 {
+margin-bottom: 10px;	
 }
 
 .margin-top50 {
