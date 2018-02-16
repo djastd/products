@@ -61,6 +61,7 @@ color: #2B496C;
 	transition-delay: 0s, 0.1s, 0.1s; 
 	transition-timing-function: linear; 
 	outline: none;
+	max-width: 360px;
 }
 
 .button_beige-theme {
@@ -131,6 +132,15 @@ min-height: 78px;
 flex-basis: 50%;
 }
 
+.column-1 {
+display:flex;
+flex-basis: 100%;
+align-items: stretch;
+flex-wrap: wrap;
+justify-content: space-evenly;
+text-align: start;
+}
+
 .column-2 {
 display:flex;
 flex-basis: 45%;
@@ -174,8 +184,8 @@ color: #ffffff;
 }
 
 .column-3 {
-flex-basis: 33%;
-max-width: 380px;
+flex-basis: 100%;
+max-width: 375px;
 display: flex;
 align-items: flex-start;
 flex-wrap: wrap;
@@ -223,9 +233,10 @@ justify-content: center;
 }
 
 .container__item-4 {
-flex-basis: 25%;
-text-align: center;
-}
+	flex-basis: 100%;
+	max-width: 300px;
+	text-align: center;
+	}
 
 .container_align-items-flex-start {
 align-items: flex-start;
@@ -466,8 +477,9 @@ transition: all 0.1s ease-in;
 
 .label_user-email {
 	padding-left: 15px;
-	flex-basis: 47%;
+	flex-basis: 100%;
 	margin-right: 40px;
+	max-width: 564px;
 }
 
 .label_username {
@@ -477,7 +489,8 @@ transition: all 0.1s ease-in;
 
 .label_userphone {
 	padding-left: 15px;
-	flex-basis: 47%;
+	flex-basis: 100%;
+	max-width: 564px;
 }
 
 .logotype {
@@ -1017,13 +1030,13 @@ font-family: "gothampro";
 src: url(../fonts/gothampro.ttf) format("truetype"); 
 font-style: normal; 
 font-weight: normal;
-font-size: 8pt;
+font-size: 16pt;
 }
 
 @font-face {
-	font-family: "empire";  
-	src: url(../fonts/empire.ttf) format("truetype"); 
-	font-style: normal; 
-	font-weight: normal;
-	font-size: 8pt;
+font-family: "empire";  
+src: url(../fonts/empire.ttf) format("truetype"); 
+font-style: normal; 
+font-weight: normal;
+font-size: 16pt;
 }
