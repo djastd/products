@@ -544,6 +544,7 @@ background-position: top center;
 	font-size: 100px;
 	font-style: normal; 
 	font-weight: normal;
+	z-index: 2000;
 }
 
 @media all and (max-width: 1199px) {
